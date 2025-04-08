@@ -1,3 +1,8 @@
-/* 
+/*
   X-Content-Type-Options: nosniff
 
+/api/*
+  Cache-Control: no-cache
+
+/* (For all resources)
+  Cache-Control: no-cache, no-store, must-revalidate
